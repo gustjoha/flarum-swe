@@ -1,5 +1,5 @@
 {
-    "name": "gustjoha/flarum-swedish",
+    "name": "gustjoha/flarum-swe",
     "type": "flarum-extension",
     "description": "Swedish language extension for flarum.",
     "keywords": ["extension", "flarum", "language", "locale", "swedish", "translation"],
