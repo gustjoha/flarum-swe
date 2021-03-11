@@ -23,4 +23,4 @@ If you ever need to update, just run `composer update gustjoha/flarum-swe` in yo
 A big thanks to both [@acarlsson](https://github.com/acarlsson) who created [the first Swedish language extension](https://github.com/acarlsson/flarum-ext-swedish) for Flarum, a lot of the initial translations came from that project. And also a big thanks to [@nlssn](https://github.com/nlssn) who not only picked up after [@acarlsson](https://github.com/acarlsson) but also maintained it for quite some time. Again, thank you guys!
 
 ## License
-Released under the MIT License. Please see the [LICENSE](https://github.com/taddis/flarum-swedish/blob/master/LICENSE) file.
+Released under the MIT License. Please see the [LICENSE](https://github.com/gustjoha/flarum-swe/blob/main/LICENSE) file.
