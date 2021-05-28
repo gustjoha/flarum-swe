@@ -203,7 +203,7 @@ core:
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
       allow_indefinitely_button: Indefinitely
-      allow_some_minutes_button: "For {count} minute|For {count} minutes"
+      allow_some_minutes_button: "{count, plural, one {For # minute} other {For # minutes}}"
       allow_ten_minutes_button: For 10 minutes
       allow_until_reply_button: Until next reply
       everyone_button: Everyone
@@ -383,8 +383,9 @@ core:
       now_link: Nu
       original_post_link: Originalinlägg
       unread_text: "{count} olästa"
-      viewing_text: "{index} av {count} inlägg|{index} av {count} inlägg"
+      viewing_text: "{count, plural, one {{index} av {formattedCount} inlägg} other {{index} av {formattedCount} inlägg}}"
 
+      
     # These translations are displayed between posts in the post stream.
     post_stream:
       discussion_renamed_old_tooltip: 'Den gamla rubriken var: "{old}"'
@@ -627,7 +628,7 @@ core:
     save_changes: Spara Ändringar                # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Inställningar
     sign_up: Bli Medlem
-    some_others: "{count} annan|{count} andra"   # Referenced by flarum-likes.yml, flarum-mentions.yml
+    some_others: "{count, plural, one {# annan} annan {# andra}}"   # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Starta en tråd
     username: Användarnamn
     users: Användare                              # Referenced by flarum-statistics.yml
